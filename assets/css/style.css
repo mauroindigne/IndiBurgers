@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700');
+ 
+ /*----------------------------Navbar----------------- */
+.navbar {
+    background-color:black;
+    margin-top: 0;
+    padding-top: 0;
+    border-top: 5px solid #fa931c;
+    border-left: 5px solid #fa931c;
+}
+body {
+    padding-top:0;
+}
+
+.navbar-brand {
+    color:#fa931c;
+    font-family: "Oswald", sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    position: center;
+}
+
+.navbar .nav-item {
+    color: #b5b3c2; 
+    float: right;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top:5px;
+    padding-bottom:1px;
+}
+
+.nav-item:hover {
+    color: #f8a13d;
+    border-bottom: 2px solid #b5b3c2;
+
+}
+
+.navbar-toggler {
+    border-color: #fa931c;
+}
+
+.navbar-toggler-icon.icon-bar{
+background-color: white !important; }
+
+.burgers {
+    color:#b5b3c2;
+}
+
+ /*----------------------------background-image----------------- */
+
+
+#background-image {
+    background: url('../images/burger-menu.jpg') no-repeat bottom right fixed;
+    width: 100%;
+    height: 750px; 
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    overflow: hidden;
+    border-left: 5px solid #fa931c;
+    text-align: center;
+
+}
+    
+#main-image{
+    height: 750px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+
+ /*----------------------------review-post----------------- */
+
+
+#cover-text {
+    font-size: 130%;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 4px;
+    width: 395px;
+    height: 100px;
+    padding-top: 40px;
+    padding-left: 10px;
+    top: 200px;
+    left: 250px;
+    position: absolute;
+    }
+
+.star-rating {
+    color:#fa931c;
+}
+
+.best-place {
+    color: #fa931c;
+    font-size: 20px;
+    padding: 0;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.review-text {
+    color: #b5b3c2;
+    font-size: 15px;
+    margin-top: 0;
+    font-weight: 400;
+}
+
+.btn.btn-outline-warning {
+    color:#fa931c;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    float: center;
+    border-color: #fa931c;
+    margin-left: 100px;
+}
+
+.btn.btn-outline-warning:hover {
+    color: black;
+    background-color: #fa931c;
+}
+
+.arrow-1 {
+    font-size: 50px;
+    width: 395px;
+    height: 100px;
+    padding-top: 40px;
+    padding-left: 10px;
+    bottom: 10px;
+    text-align: center;
+    left: 500px;
+    position: absolute;
+    color: #fa931c;
+}
+
+
+/*----------------------------About----------------- */
+#about-image {
+    background: url('../images/about-image.jpg') no-repeat bottom right fixed;
+    width: 100%;
+    height: 880px; 
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    overflow: hidden;
+    border-left: 5px solid #fa931c;
+    text-align: center;
+
+}
+    
+#about-section{
+    height: 880px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#about-box-1 {
+    font-size: 130%;
+    font-family: "Roboto", sans-serif;
+    width: 395px;
+    height: 100px;
+    padding-top: 40px;
+    padding-left: 10px;
+    top: 100px;
+    left: 200px;
+    position: absolute;
+}
+
+#about-box-2 {
+    font-size: 130%;
+    font-family: "Roboto", sans-serif;
+    width: 395px;
+    height: 100px;
+    padding-top: 40px;
+    padding-left: 10px;
+    top: 250px;
+    right: 200px;
+    position: absolute;
+}
+
+#about-box-3 {
+    font-size: 130%;
+    font-family: "Roboto", sans-serif;
+    width: 395px;
+    height: 100px;
+    padding-top: 40px;
+    padding-left: 10px;
+    top: 430px;
+    left: 200px;
+    position: absolute;
+}
+
+#about-box-4 {
+    font-size: 130%;
+    font-family: "Roboto", sans-serif;
+    width: 395px;
+    height: 100px;
+    padding-top: 40px;
+    padding-left: 10px;
+    top: 570px;
+    right: 200px;
+    position: absolute;
+}
+
+.about-header {
+    color: #fa931c;
+    font-size: 30px;
+    padding: 0;
+    font-weight: 400;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.about-text {
+    color: white;
+    font-size: 20px;
+    margin-top: 0;
+    font-weight: 400;
+    text-align: center;
+}
+
+.spacer-2 {
+    font-size: 50px;
+    width: 395px;
+    height: 100px;
+    padding-top: 40px;
+    padding-left: 10px;
+    bottom: 10px;
+    text-align: center;
+    left: 500px;
+    position: absolute;
+    color: #fa931c;
+
+}
+
+/*----------------------------media screen----------------- */
+
+@media screen and (max-width: 943px) {
+
+#cover-text {
+        left: 10px;
+    }
