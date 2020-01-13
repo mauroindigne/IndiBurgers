@@ -8,12 +8,20 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
 		integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+	</script>
 </head>
 
 <body>
-<!-- Navbar comes from bootstrap, but with custom css for colors -->
+	<!-- Navbar comes from bootstrap, but with custom css for colors -->
 	<nav class="navbar navbar-expand-sm fixed-top">
 		<div class="navbar-brand" href="#">INDI<span class="burgers">Burgers</span></div>
 		<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,19 +38,22 @@
 	<section>
 		<div id="main-image">
 			<div id="background-image"></div>
-			<div id="cover-text">
-				<!-- fontawesome stars used to show the reveiws from people -->
-				<div class="star-rating">
-					<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-5 offset-md-2 cover-text">
+						<div class="star-rating">
+							<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+						</div>
+						<h5 class="best-place">“Best place in Town!”</h5>
+						<p class="review-text">The burgers and the view of the city are unmatchable anywhere else!<p>
+								<!-- link for this button still needs to be added -->
+								<button type="button" class="btn btn-outline-warning">Book a Table</button>
+					</div>
 				</div>
-				<h5 class="best-place">“Best place in Town!”</h5>
-				<p class="review-text">The burgers and the view of the city are unmatchable anywhere else!<p>
-                                <!-- link for this button still needs to be added -->
-						<button type="button" class="btn btn-outline-warning" href="#">Book a Table</button>
-			</div>
-			<!-- Arrow is used to let the users know theres more to see -->
-			<div class="arrow-1">
-				<i class="fas fa-arrow-circle-down"></i>
+				<!-- Arrow is used to let the users know theres more to see -->
+				<div class="arrow-1 col-md-1 offset-md-4">
+					<i class="fas fa-arrow-circle-down"></i>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -50,28 +61,38 @@
 		<div id="about-section">
 			<div id="about-image"></div>
 			<!-- A shortened style of Who, What, Where is located here -->
-			<div id="about-box-1">
-				<h5 class="about-header">Who</h5>
-				<p class="about-text">INDIBurgers was founded in January 2020 by Mauro Indigne, member of the
-					IndiBirghi & Co. group created in 1970.<p>
+			<div class="container">
+				<div class="row about-block">
+					<div class="col-md-5 offset-md-1">
+						<h5 class="about-header">Who</h5>
+						<p class="about-text">INDIBurgers was founded in January 2020 by Mauro Indigne, member of the
+							IndiBirghi & Co. group created in 1970.<p>
+					</div>
+				</div>
+				<div class="row about-block">
+					<div class="col-md-5 offset-md-6">
+						<h5 class="about-header">Unique</h5>
+						<p class="about-text">Our customers are able to enjoy a delicious meal with a beautiful view on
+							downtown Bangkok on its balcony and live band playing every Friday night.<p>
+					</div>
+				</div>
+				<div class="row about-block">
+					<div class="col-md-5 offset-md-1">
+						<h5 class="about-header">Quality</h5>
+						<p class="about-text">INDIBurgers provides customers with the highest quality of meat and daily
+							fresh products from local farms.<p>
+					</div>
+				</div>
+				<div class="row about-block">
+					<div class="col-md-5 offset-md-6">
+						<h5 class="about-header">Location?</h5>
+						<p class="about-text">INDIBurgers is located in Bangkok, Thailand, the capital of good and
+							high-quality foods. Address: Pullman Hotel, Silom, 28th Floor<p>
+					</div>
+				</div>
 			</div>
-			<div id="about-box-2">
-				<h5 class="about-header">Unique</h5>
-				<p class="about-text">Our customers are able to enjoy a delicious meal with a beautiful view on
-					downtown Bangkok on its balcony and live band playing every Friday night.<p>
-			</div>
-			<div id="about-box-3">
-				<h5 class="about-header">Quality</h5>
-				<p class="about-text">INDIBurgers provides customers with the highest quality of meat and daily fresh
-					products from local farms.<p>
-			</div>
-			<div id="about-box-4">
-				<h5 class="about-header">Location?</h5>
-				<p class="about-text">INDIBurgers is located in Bangkok, Thailand, the capital of good and high-quality
-					foods. Address: Pullman Hotel, Silom, 28th Floor<p>
-			</div>
-		</div>
 	</section>
 </body>
+
 
 </html>
