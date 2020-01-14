@@ -290,7 +290,7 @@ footer {
 }
 
 #about-section{
-    height: 900px;
+    height: 850px;
 }
 
 #about-image {
@@ -305,6 +305,9 @@ footer {
     width: 380px;
     height: 500px;
     position: absolute;
-    top: 100px;
     text-align: center;
+}
+
+.arrow-1 {
+    display: none;
 }
