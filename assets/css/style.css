@@ -60,7 +60,6 @@ body {
     width: 100%;
     height: 750px; 
     background-size: 100% 100%;
-    background-repeat: no-repeat;
     position: absolute;
     overflow: hidden;
     border-left: 5px solid #fa931c;
@@ -140,7 +139,6 @@ body {
     width: 100%;
     height: 800px; 
     background-size: 100% 100%;
-    background-repeat: no-repeat;
     position: absolute;
     overflow: hidden;
     border-left: 5px solid #fa931c;
@@ -184,9 +182,8 @@ body {
 #reservation-image {
     background: url('../images/reservation-image.jpg') no-repeat bottom right fixed;
     width: 100%;
-    height: 650px; 
+    height: 700px; 
     background-size: 100% 100%;
-    background-repeat: no-repeat;
     position: absolute;
     overflow: hidden;
     border-left: 5px solid #fa931c;
@@ -194,7 +191,7 @@ body {
 }
 
 .reservation-section{
-    height: 650px;
+    height: 700px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -205,16 +202,33 @@ body {
     font-family: "Roboto", sans-serif;
     letter-spacing: 2px;
     color: #fa931c;
-    width: 500px;
+    width: 600px;
     height: 500px;
     position: absolute;
     top: 100px;
+    text-align: center;
     }
 
 form {
     background-color: rgba(70, 70, 70, 0.616);
     padding: 30px;
+
 }
+
+.btn.btn-outline {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    float: center;
+    border-color: #fa931c;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.btn.btn-outline:hover {
+    color: black;
+    background-color: #fa931c;
+}
+
 /*----------------------------media screen----------------- */
 
 @media screen and (max-width: 943px) {
@@ -255,4 +269,24 @@ form {
     padding-left: 5px;
     padding-right: 5px;
     padding-bottom: 15px;
+}
+
+#about-section{
+    height: 900px;
+}
+
+#about-image {
+    height: 900px;
+}
+
+.booking {
+    font-size: 100%;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 2px;
+    color: #fa931c;
+    width: 380px;
+    height: 500px;
+    position: absolute;
+    top: 100px;
+    text-align: center;
 }
