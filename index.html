@@ -23,19 +23,19 @@
 <body>
 	<!-- Navbar comes from bootstrap, but with custom css for colors -->
 	<nav class="navbar navbar-expand-sm fixed-top">
-		<div class="navbar-brand" href="#">INDI<span class="burgers">Burgers</span></div>
+		<div class="navbar-brand">INDI<span class="burgers">Burgers</span></div>
 		<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 		<div class="collapse navbar-collapse" id="navbarNav">
 			<div class="navbar-nav ml-auto">
-				<a class="nav-item nav-link" href="#">Menu</a>
+				<a class="nav-item nav-link" href="#r">Menu</a>
 				<a class="nav-item nav-link" href="#">Contact</a>
-				<a class="nav-item nav-link" href="#">Reservation</a>
+				<a class="nav-item nav-link" href="#reservation-section">Reservation</a>
 			</div>
 		</div>
 	</nav>
-	<section>
+	<section id="home">
 		<div id="main-image">
 			<div id="background-image"></div>
 			<div class="container">
@@ -92,7 +92,7 @@
 				</div>
 			</div>
 	</section>
-	<section>
+	<section id="reservation-section">
 		<div class="reservation-section">
 			<div id="reservation-image"></div>
 			<div class="container">
@@ -100,22 +100,22 @@
 					<div class="col-md-7 offset-md-1 booking">
 						<form>
 							<div class="form-group">
-                                <label for="booking-name">Name</label>
+								<label for="booking-name">Name</label>
 								<input type="text" class="form-control" id="booking-name" placeholder="Name" aria-describedby="emailHelp" required>
 							</div>
-							<div class="form-group">
-                                <label for="email">Email Address</label>
-								<input type="email" class="form-control" placeholder="Email" id="email">
+								<div class="form-group">
+									<label for="email">Email Address</label>
+									<input type="email" class="form-control" placeholder="Email" id="email">
                             </div>
-                            <div class="form-group">
-                                <label for="">Phone Number</label>
-								<input type="text" class="form-control" placeholder="Phone" id="phone" required>
+									<div class="form-group">
+										<label for="">Phone Number</label>
+										<input type="text" class="form-control" placeholder="Phone" id="phone" required>
                             </div>
-                            <div class="form-group">
-                                <label for="date">Date for Reservation</label>
-								<input type="text" class="form-control" placeholder="dd/mm/yyyy" id="date">
+										<div class="form-group">
+											<label for="date">Date for Reservation</label>
+											<input type="text" class="form-control" placeholder="dd/mm/yyyy" id="date">
                             </div>
-							<button type="submit" class="btn btn-outline">Reserve a Table</button>
+											<button type="submit" class="btn btn-outline">Reserve a Table</button>
 						</form>
 					</div>
 				</div>s
@@ -123,11 +123,7 @@
 		</div>
 	</section>
 	<footer>
-		</br>
-		</br>
-		</br>
-		</br>
-
+	
 	</footer>
 </body>
 
