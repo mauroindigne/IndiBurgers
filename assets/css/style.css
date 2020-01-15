@@ -2,11 +2,6 @@
  
  /*----------------------------Navbar----------------- */
 
-nav {
-    height: 90px; 
-    margin-bottom: 20px;
-    padding-bottom: 10px;
-}
 
 .navbar {
     background-color: black;
@@ -253,10 +248,9 @@ footer {
     border-bottom: 5px solid #fa931c;
 }
 
-footer .container {
-    padding: 40px;
-    margin-left: 10%;
-    margin-right: 10%;
+footer div {
+    padding-top: 15px;
+    padding-bottom: 30px
 }
 
 .footer-title {
@@ -265,6 +259,7 @@ footer .container {
     font-family: "Roboto", sans-serif;
     padding-top:5%;
     font-weight: 300;
+    padding-bottom: 20px;
 }
 
 .footer-info {
@@ -279,9 +274,10 @@ footer .container {
     color:#fa931c;
 
 }
-.info-devider {
+.info-divider {
     border-left: 2px solid #fa931c;
 }
+
 /*----------------------------media screen----------------- */
 
 @media screen and (max-width: 943px) {
@@ -349,8 +345,5 @@ footer .container {
 
 @media screen and (max-width: 765px) {
 
-.info-devider {
+.info-divider {
     display: none;
-}
-
-}
