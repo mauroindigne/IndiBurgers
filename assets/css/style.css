@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700');
  
  /*----------------------------Navbar----------------- */
+
+nav {
+    height: 90px; 
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
 .navbar {
-    background-color:black;
+    background-color: black;
     margin-top: 0;
     padding-top: 0;
     border-top: 5px solid #fa931c;
@@ -247,6 +254,23 @@ footer {
     border-bottom: 5px solid #fa931c;
 }
 
+.footer-title {
+    text-align: center;
+    color: #fa931c;
+    font-family: "Roboto", sans-serif;
+    padding-top:5%;
+}
+
+.location-info {
+    text-align: center;
+    color: #b5b3c2;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.info-devider {
+    border-left: 2px solid #fa931c;
+}
 /*----------------------------media screen----------------- */
 
 @media screen and (max-width: 943px) {
@@ -310,4 +334,12 @@ footer {
 
 .arrow-1 {
     display: none;
+}
+
+@media screen and (max-width: 765px) {
+
+.info-devider {
+    display: none;
+}
+
 }
