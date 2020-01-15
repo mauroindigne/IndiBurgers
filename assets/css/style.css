@@ -249,9 +249,14 @@ form {
 
 footer {
     background-color: black;
-    height: 400px;
     border-left: 5px solid #fa931c;
     border-bottom: 5px solid #fa931c;
+}
+
+footer .container {
+    padding: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .footer-title {
@@ -259,15 +264,21 @@ footer {
     color: #fa931c;
     font-family: "Roboto", sans-serif;
     padding-top:5%;
+    font-weight: 300;
 }
 
-.location-info {
+.footer-info {
     text-align: center;
     color: #b5b3c2;
     font-family: "Roboto", sans-serif;
-
+    font-size: 18px;
+    font-weight: 200;
 }
 
+.fas {
+    color:#fa931c;
+
+}
 .info-devider {
     border-left: 2px solid #fa931c;
 }
