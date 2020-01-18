@@ -326,9 +326,32 @@ footer div {
 
 .menu-items-description {
     font-family: "Roboto", sans-serif;
-    color: #b5b3c2;
+    padding-top: 50px;
+    text-align: left;
+    padding: 30px;
 }
 
+.burger-type {
+    color:#fa931c;
+    margin-top: 18px;
+    margin-bottom: 0px;
+    font-weight: 500;
+}
+
+.menu-items-description p {
+    color: #b5b3c2;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.menu-items-description h3 {
+    color:white;
+    font-weight: 300;
+    font-size: 40px;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    padding-bottom: 40px;
+} 
 /*----------------------------media screen----------------- */
 
 @media screen and (max-width: 943px) {
@@ -418,6 +441,9 @@ footer div {
     padding-right: 3px;
     margin: 0 auto;
 }
+
+.menu-section{ 
+    height: 1600px;
 }
 
 @media screen and (max-width: 768px) {
