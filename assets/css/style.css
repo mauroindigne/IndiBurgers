@@ -114,6 +114,7 @@ body {
     color:#fa931c;
     font-family: "Roboto", sans-serif;
     font-weight: 300;
+    letter-spacing: 1px;
     float: center;
     border-color: #fa931c;
     margin-left: 100px;
@@ -289,7 +290,7 @@ footer div {
 #menu-image {
     background: url('../images/menu-image.jpg') no-repeat bottom right fixed;
     width: 100%;
-    height: 200px; 
+    height: 250px; 
     background-size: 100% 100%;
     position: absolute;
     overflow: hidden;    
@@ -302,7 +303,7 @@ footer div {
     text-align: center;
     font-family: "Oswald",sans-serif;
     margin: 0 auto;
-    top: 30px;
+    top: 50px;
     letter-spacing: 5px;
     color: white;
     font-size: 80px;
@@ -318,7 +319,7 @@ footer div {
 }
 
 .menu-image-section{
-    height: 200px;
+    height: 250px;
     width: 100%;
     background-color: #fafafa;
     border-left: 5px solid #fa931c;
@@ -351,6 +352,7 @@ footer div {
     text-align: center;
     font-family: "Oswald", sans-serif;
     padding-bottom: 40px;
+    padding-top: 30px;
 } 
 /*----------------------------media screen----------------- */
 
