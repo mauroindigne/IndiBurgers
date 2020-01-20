@@ -24,7 +24,6 @@ body {
     padding-right: 0px;
     padding-bottom: 0px;
     padding-left: 0px;
-    position: center;
 }
 
 .navbar .nav-item {
@@ -116,7 +115,6 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     letter-spacing: 1px;
-    float: center;
     border-color: #fa931c;
     margin-left: 100px;
 }
@@ -232,7 +230,6 @@ form {
     color: white;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    float: center;
     border-color: #fa931c;
     background-color: rgba(255, 255, 255, 0);
 }
@@ -241,51 +238,6 @@ form {
     color: black;
     background-color: #fa931c;
 }
-
-/*----------------------------footer----------------- */
-
-footer {
-    background-color: black;
-    border-left: 5px solid #fa931c;
-    border-bottom: 5px solid #fa931c;
-}
-
-footer div {
-    padding-top: 15px;
-    padding-bottom: 30px
-}
-
-.footer-title {
-    text-align: center;
-    color: #fa931c;
-    font-family: "Roboto", sans-serif;
-    padding-top:5%;
-    font-weight: 300;
-    padding-bottom: 20px;
-}
-
-.footer-info {
-    text-align: center;
-    color: #b5b3c2;
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-weight: 200;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.fas {
-    color:#fa931c;
-
-}
-.info-r-divider {
-    border-left: 2px solid #fa931c;
-}
-
-.info-l-divider {
-    border-right: 2px solid #fa931c;
-}
-
 /*----------------------------menu Section----------------- */
 
 #menu-image {
@@ -300,7 +252,6 @@ footer div {
 }
 
 .menu-title {
-    color: ;
     text-align: center;
     font-family: "Oswald",sans-serif;
     margin: 0 auto;
@@ -355,6 +306,51 @@ footer div {
     padding-bottom: 40px;
     padding-top: 30px;
 } 
+
+/*----------------------------footer----------------- */
+
+footer {
+    background-color: black;
+    border-left: 5px solid #fa931c;
+    border-bottom: 5px solid #fa931c;
+}
+
+footer div {
+    padding-top: 15px;
+    padding-bottom: 30px
+}
+
+.footer-title {
+    text-align: center;
+    color: #fa931c;
+    font-family: "Roboto", sans-serif;
+    padding-top:5%;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+.footer-info {
+    text-align: center;
+    color: #b5b3c2;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.fas {
+    color:#fa931c;
+
+}
+.info-r-divider {
+    border-left: 2px solid #fa931c;
+}
+
+.info-l-divider {
+    border-right: 2px solid #fa931c;
+}
+
 /*----------------------------media screen----------------- */
 
 @media screen and (max-width: 943px) {
@@ -448,6 +444,7 @@ footer div {
 .menu-section{ 
     height: 1600px;
 }
+}
 
 @media screen and (max-width: 768px) {
 
@@ -457,4 +454,5 @@ footer div {
 .info-r-divider {
     display: none;
 }
+
 }
