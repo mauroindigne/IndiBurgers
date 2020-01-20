@@ -12,14 +12,19 @@ to section with ease was my goal. Using the darker colors with orange to match t
 
 ## Features
 
-The features on this website, are click able buttons to move from section to section on the page while having a navbar that follows the page.
+
  
 ### Existing Features
 - Feature 1 - bootstrap navbar. The bootstrap navbar was used to create a moving navbar the folowes the user scrolling to provide an easier way to jump from section to 
 section. This was further helped by the colapsoble navbar, this was also used from bootstrap.
 
-- Feature 2 - I had a form created that helps the user book a table for the night. this was a custom built form using extra help from the bootstraap program to help create
-a grid and stucture for my custom form.
+- Feature 2 - The features on this website, are click able buttons to move from section to section on the page while having a navbar that follows the page.
+
+- Feature 3 - I had a form created that helps the user book a table for the night. this was a custom built form using extra help from the bootstraap program to help 
+create a grid and stucture for my custom form.
+
+- Feature 4 - I created an orange line that goes around the page to mark the top **navbar** and the bottom **footer**. This helped the user see what the top was and the
+bottom while also giving a nice design and color to wrap around the whole website.
 
 
 ### Features Left to Implement
