@@ -48,8 +48,8 @@ became to hard for me to Implement and i choose to take it out in favor of a mor
 I had testing my website on different screen sizes to make sure it all fits well together whatever device the user is using. how ever i stuck more to the mobile sizes of
 later devices such as iphone 8,X,plus while also using the size for IPAD, as many people use ipads for home use.
 
-I had some issues with image sizing for mobile versions, that i tried to solve for a long time. The images look great in full browser size, but gets squezzed when shrunk 
-to mobile sizes. I tried other solutions but when i followed them from online, my image would disapeare. i desided to stick with the issue -
+I had some issues with image sizing for mobile versions that i tried to solve for a long time. The images look great in full browser size, but gets squezzed when shrunk 
+to mobile sizes. I tried other solutions from online froms and finally my image would fit correctly.
 
 ## Deployment
 
