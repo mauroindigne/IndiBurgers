@@ -28,8 +28,10 @@ bottom while also giving a nice design and color to wrap around the whole websit
 
 
 ### Features Left to Implement
-- future feature - I wanted to create a more advanced table booking system that shows the whole restaurants table layout and shows which tables are free per night. This 
-became to hard for me to Implement and i choose to take it out in favor of a more simple booking form. 
+- future feature - I had created an advanced table booking system in my wireframes that shows the whole restaurants table layout and shows which tables are free per night.
+ As i worked through the implementation of this it became clear that it would be to hard for my current understanding of html and i decided to take it out in favor of a 
+more simple booking form. The reason i wanted to have this advanced booking system was because when people book a table for a restaurant they want to know where they are
+going to sit and with this system they are able to pick where they would like to sit. weather that would be near the kitchen or windows or on the balcony near the band.
 
 ## Technologies Used
 
