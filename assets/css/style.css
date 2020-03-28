@@ -249,9 +249,7 @@ form {
 }
 /*----------------------------menu Section----------------- */
 #menu-image {
-    background: url('../images/menu-image.jpg') no-repeat bottom right fixed;
     width: 100%;
-    height: 250px; 
     background-size: 100% 100%;
     position: absolute;
     overflow: hidden;    
@@ -449,7 +447,7 @@ footer div {
 }
 
 .menu-section{ 
-    height: 1600px;
+    height: 95vh;
 }
 }
 
